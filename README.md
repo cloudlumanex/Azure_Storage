@@ -5,13 +5,14 @@
 # Azure Storage Data Services
 
 ## Azure Blob Storage 
-This is optimized for storing large amounts of unstructured data such as text or binary. It is commonly used for backup, disaster recovery, and data archiving.
+Azure Blob Storage is a cloud-based object storage solution provided by Microsoft Azure. It is designed to store and manage large amounts of unstructured data, such as documents, images, videos, and other types of binary and text data. Blobs are organized into containers, and each blob is assigned a unique URL for access.
 
 ## Azure File Storage 
-It provides fully managed file shares in the cloud that are accessible via the SMB protocol, making it easy to share files across applications and services.
+Azure File Storage is a fully managed file share service in the cloud. It provides the Server Message Block (SMB) protocol for sharing files across applications and VMs in the Azure cloud. Azure File Storage is useful for applications that require shared file access, such as configuration files or data files.
 
 ## Azure Queue Storage 
-This offers a reliable messaging solution for asynchronous communication between application components, ensuring that messages are delivered promptly and orderly.
+Azure Queue Storage is a message queue service that allows the decoupling of components in a distributed application. It provides a reliable way to store and retrieve messages between application components, ensuring asynchronous communication.
 
 ## Azure Queue Storage
-This offers a reliable messaging solution for asynchronous communication between application components, ensuring that messages are delivered promptly and orderly.
+Azure Tables is a NoSQL data store service provided by Azure. It stores large amounts of semi-structured data and allows for fast and efficient querying using a key-based access model. Data is organized into tables, and each table can store billions of entities.
+
